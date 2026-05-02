@@ -1,4 +1,22 @@
-# Documentation: UIEncoderTextComponent
+# UIEncoderTextComponent v2.0.0 - Bibliothèque UI pour Arduino/ESP32
+
+[![PlatformIO Registry](https://img.shields.io/badge/platformio-lib-✅-9966FF.svg)](https://registry.platformio.org/libraries/UIEncoderTextComponent)
+
+## Installation
+
+### Via PlatformIO Library Manager
+```
+pio lib install "UIEncoderTextComponent"
+```
+
+### Manuel
+1. Clonez le repo : `git clone https://github.com/HAMMOU-UI/UIEncoderTextComponent.git`
+2. Copiez dans `lib/` de votre projet.
+
+**Dépendances requises** :
+- TFT_eSPI (^2.5.41)
+- u8g2 (^2.35.19)
+- UIEncoderComponent (lib parent)
 
 ## Vue d'ensemble
 

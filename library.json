@@ -2,19 +2,26 @@
     "name": "UIEncoderTextComponent",
     "version": "2.0.0",
     "description": "Classe de base pour les composants UI à base de texte et contrôlés par un encodeur rotatif.",
-    "keywords": [
-        "ui",
-        "component",
-        "text",
-        "encoder",
-        "abstract"
-    ],
+    "keywords": ["ui", "component", "text", "encoder", "tft", "display", "arduino", "esp32", "u8g2", "abstract"],
     "authors": [
         {
             "name": "HAMMOU Mohammed el Amine",
-            "email": "mohammed.el.amine.hammou@gmail.com"
+            "email": "hammouamine@gmail.com"
         }
     ],
-    "frameworks": "arduino",
-    "platforms": "*"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Aminehammou/UIEncoderTextComponent.git"
+    },
+    "homepage": "https://github.com/Aminehammou/UIEncoderTextComponent",
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32", "atmegaavr"],
+    "build": {
+        "libArchive": false
+    },
+    "libDeps": {
+        "bodmer/TFT_eSPI": "^2.5.41",
+        "olikraus/u8g2": "^2.35.19"
+    },
+    "examples": "*.ino"
 }
